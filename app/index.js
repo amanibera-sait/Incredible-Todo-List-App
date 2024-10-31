@@ -3,13 +3,13 @@ import React from 'react'
 import Custompropex from '../components/custompropex'
 import Multipleprops from '../components/multipleprops'
 import Arraycustomprops from '../components/arraycustomprops'
+import Customstate from '../components/customstate'
+import App from '../components/App'
 
 const Index = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center"}}>
-      <Custompropex/>
-      <Multipleprops/>
-      <Arraycustomprops/>
+    <View style={{flex:1, padding: 4, justifyContent:'center' ,alignContent: 'center',}}>
+      <App/>
     </View>
   )
 }
